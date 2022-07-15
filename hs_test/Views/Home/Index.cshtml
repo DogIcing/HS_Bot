@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <form action="/Home/Bot">
+        <label for="minstars">Min Stars:</label><br />
+        <input name="minstars" type="number" step="1" min="0" value="0"/><br />
+        <label for="minobjects">Min Objects:</label><br />
+        <input name="minobjects" type="number" step="1" min="0" value="0"/><br />
+        <label for="canbearemix">Remixes Allowed?:</label><br />
+        <span><input checked name="canbearemix" type="radio" value="true" />Yes</input><input name="canbearemix" type="radio" value="false" />No</input></span><br />
+        <button type="submit">Beep Boop Start</button>
+    </form>
+</div>
