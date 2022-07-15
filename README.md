@@ -10,4 +10,4 @@ dotnet restore
 3. Run on IIS Express and you're done!
 
 
-Lmk if this doesn't work on the [Hopscotch Forum](https://forum.gethopscotch.com/u/DogIcing).
+If this doesn't work, lmk on the [Hopscotch Forum](https://forum.gethopscotch.com/u/DogIcing).
